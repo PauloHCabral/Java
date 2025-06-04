@@ -2,19 +2,28 @@
  * @author Paulo Henrique
  */
 
+// Importando a biblioteca Scanner para ler a entrada de dados do usuário
 import java.util.Scanner;
+
 public class dadosDousuario {
     public static void main(String[] args) {
 
-        Scanner inseri_nome = new Scanner(System.in);
+        // Criando um objeto do tipo Scanner com o nome scanner
+        Scanner scanner = new Scanner(System.in);
+
         System.out.println("Olá mundo !");
 
         System.out.println("Digite seu :");
 
-        String nomeDousuario = inseri_nome.nextLine();
-        System.out.println("Seja bem-vindo "+nomeDousuario);
+        // Lendo o nome do usuário
+        String nomeDousuario = scanner.nextLine();
+        System.out.println("Seja bem-vindo " + nomeDousuario + "!");
+
+        scanner.close();
 
 
     }
 }
-    d
+
+
+
