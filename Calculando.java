@@ -1,6 +1,7 @@
 /**
  * @author Paulo Henrique
  */
+import java.util.Scanner;
 
 // Classe chamada calculando
 public class Calculando {
@@ -17,6 +18,25 @@ public class Calculando {
 
         // Exibindo o resultado da soma
         System.out.println("A soma dos valores a + b é = " +soma);
+
+
+        int c = 2025;
+        int d = 1991;
+        int subtrai = c - d;
+
+        System.out.println("A subtração de c - d é = " +subtrai);
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Olá, digite um valor: ");
+
+        int soma1;
+
+        System.out.println("Digite outro valor:");
+
+        int soma2;
+
+
+
 
 
 
