@@ -26,18 +26,23 @@ public class Calculando {
 
         System.out.println("A subtração de c - d é = " +subtrai);
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Olá, digite um valor: ");
 
-        int soma1;
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Olá, digite um valor: ");
+        int x = input.nextInt();
+
 
         System.out.println("Digite outro valor:");
+        int y = input.nextInt();
 
-        int soma2;
+        int somas = x + y;
 
 
+        System.out.println(" A soma de x + y é = " +somas);
 
-
+        input.close();
 
 
 
